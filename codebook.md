@@ -1,6 +1,6 @@
 Codebook
 ================
-##describing the variables
+## describing the variables
 
 * subject: ID the subject who performed the activity for each window sample. Its range is from 1 to 30.
 * activityname: the name of the activity
@@ -14,23 +14,23 @@ Codebook
 * count: Count of data points used to compute average 
 * average: Average of each variable for each activity and each subject 
 
-
 ## summary of the variables 
 
-### subject                 activityname      featureTF      featureBG            featureAG    featureJE  
- Min.   : 1.0   LAYING            :1980   Time     :7200   NA     :4680   Accelerometer:7200   NA  :7200  
- 1st Qu.: 8.0   SITTING           :1980   Frequency:4680   Body   :5760   Gyroscope    :4680   Jerk:4680  
- Median :15.5   STANDING          :1980                    Gravity:1440                                   
- Mean   :15.5   WALKING           :1980                                                                   
- 3rd Qu.:23.0   WALKING_DOWNSTAIRS:1980                                                                   
- Max.   :30.0   WALKING_UPSTAIRS  :1980                                                                   
-     featureMAG   featuremeasure featureaxis     count          average        
- NA       :8640   mean:5940      NA:3240     Min.   :36.00   Min.   :-0.99767  
- Magnitude:3240   std :5940      X :2880     1st Qu.:49.00   1st Qu.:-0.96205  
-                                 Y :2880     Median :54.50   Median :-0.46989  
-                                 Z :2880     Mean   :57.22   Mean   :-0.48436  
-                                             3rd Qu.:63.25   3rd Qu.:-0.07836  
-                                             Max.   :95.00   Max.   : 0.97451
+### subject     
+
+* Min.   : 1.0
+* 1st Qu.: 8.0 
+* Median :15.5 
+* Mean   :15.5 
+* 3rd Qu.:23.0 
+* Max.   :30.0 
+
+### activityname
+
+
+
+
+
 
 ## dataset structure 
 
