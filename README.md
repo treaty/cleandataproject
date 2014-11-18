@@ -30,7 +30,7 @@ cleandataproject
    * dat2<-datall[,grepl("mean\\()|std\\()",names(datall))]
    * dat3<-datall$activity
    * dat4<-datall$subject
-   * datsel<-datsel<-cbind(dat2,activity=dat3,subject=dat4)
+   * datsel<-cbind(dat2,activity=dat3,subject=dat4)
 
 ### Fourth, it will change to apply descriptive activity names to name the activities in the data set 
    * these are the commands:

@@ -19,7 +19,7 @@ names(datall)<-c(feature3,"activity","subject")
 dat2<-datall[,grepl("mean\\()|std\\()",names(datall))]
 dat3<-datall$activity
 dat4<-datall$subject
-datsel<-datsel<-cbind(dat2,activity=dat3,subject=dat4) 
+datsel<-cbind(dat2,activity=dat3,subject=dat4) 
 labname<- read.table("UCI HAR Dataset/activity_labels.txt")
 names(labname)<-c("activity","activityname")
 datsel2<-merge(datsel,labname,by="activity")
