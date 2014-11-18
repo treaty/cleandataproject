@@ -17,7 +17,7 @@ Codebook
 
 ## summary of the variables 
 
-subject                 activityname      featureTF      featureBG            featureAG    featureJE  
+### subject                 activityname      featureTF      featureBG            featureAG    featureJE  
  Min.   : 1.0   LAYING            :1980   Time     :7200   NA     :4680   Accelerometer:7200   NA  :7200  
  1st Qu.: 8.0   SITTING           :1980   Frequency:4680   Body   :5760   Gyroscope    :4680   Jerk:4680  
  Median :15.5   STANDING          :1980                    Gravity:1440                                   
