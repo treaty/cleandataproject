@@ -3,10 +3,10 @@ cleandataproject
 
 ### First, it will download the file from the desired website and unzip the download file in the working dictionary, the unziped file is called UCI HAR Dataset.  
    * these are the commands: 
-   * download.file("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip","./ori.zip",method="curl").
+   * download.file("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip","./ori.zip",method="curl")
    * unzip("ori.zip")
 ### Second, it will read the data into R then merges the training and the test sets to create one data set and named the variables 
-   *these are the commands:
+   * these are the commands:
    *testx<- read.table("UCI HAR Dataset/test/X_test.txt")
    *testy<- read.table("UCI HAR Dataset/test/y_test.txt")
    *testsub<- read.table("UCI HAR Dataset/test/subject_test.txt")
