@@ -68,5 +68,5 @@ cleandataproject
    * datframe<-datsum2[,list(count=.N,average=mean(value)),by=key(datsum2)]
    * write.table(datframe,"dat.txt",row.names=F)
 
-### In summary, using run_analysis.R one can use the original download zip file called "ori.zip" to generate the tidy data set directly called "dat.txt". For more informaition about the meaning of each variable, one can find in the Codebook file codebook.md. 
+### In summary, using run_analysis.R one can use the original download zip file called "ori.zip" to generate the tidy data set directly called "dat.txt". For more informaition about the meaning of each variable, one can find in the Codebook file CodeBook.md. 
 
